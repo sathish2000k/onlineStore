@@ -1,0 +1,11 @@
+package com.onlinestore.repository;
+
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import com.onlinestore.entity.Product;
+
+@Repository
+public interface ProductRepository extends CrudRepository<Product, Long>{
+
+}
